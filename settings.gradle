@@ -1,0 +1,4 @@
+rootProject.name = 'online'
+include ('sample-api','provider-sample','consumer-sample')
+
+

@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: dubbo-auto1-configuration-provider-demo
+dubbo:
+  scan:
+    base-packages: com.onlyedu.provider.service
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: zookeeper://101.133.149.61:2181
+    file: ${user.home}/dubbo-cache/${spring.application.name}/dubbo.cache
+  config-center:
+    timeout: 40000
+demo:
+  service:
+    version: 1.0.0
+server:
+  port: 8088
