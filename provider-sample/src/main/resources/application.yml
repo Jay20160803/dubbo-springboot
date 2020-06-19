@@ -1,0 +1,10 @@
+dubbo:
+  application:
+    name: dubbo-auto-configuration-provider-demo
+  scan:
+    base-packages: com.onlyedu.provider.service
+  protocol:
+    name: dubbo
+    port: 12345
+  registry:
+    address: N/A
