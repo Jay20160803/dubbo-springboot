@@ -4,7 +4,6 @@ spring:
 server:
   port: 8888
 
-
 embedded:
   zookeeper:
     port: 2181
@@ -22,3 +21,4 @@ dubbo:
     base-packages: com.onlyedu.consumer.service
   config-center:
     timeout: 40000
+

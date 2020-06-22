@@ -1,10 +1,10 @@
 dependencies {
     implementation project(":sample-api")
     compile group: 'org.apache.dubbo', name: 'dubbo-spring-boot-starter', version: '2.7.7'
+
     implementation 'org.springframework.boot:spring-boot-starter'
     compile ('org.apache.dubbo:dubbo-dependencies-zookeeper:2.7.7'){
         exclude group: 'org.slf4j', module:'slf4j-log4j12'
     }
-
-
+    
 }
